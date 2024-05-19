@@ -1,0 +1,28 @@
+{
+  "name": "expressproject",
+  "version": "1.0.0",
+  "description": "This is the first project on Express",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Server.js",
+    "dev": "nodemon Server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sevinjeno/ExpressProject.git"
+  },
+  "author": "Sevinjeno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sevinjeno/ExpressProject/issues"
+  },
+  "homepage": "https://github.com/Sevinjeno/ExpressProject#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
